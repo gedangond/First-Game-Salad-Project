@@ -3,11 +3,33 @@
   <layers>
     <layer id="id896438">
       <actors>
+        <actor id="id993437" prototype="id406478">
+          <attributes>
+            <point id="position">
+              <real id="x">240.5</real>
+              <real id="y">160</real>
+            </point>
+            <size id="size">
+              <real id="width">480</real>
+              <real id="height">320</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
         <actor id="id782179" prototype="id110581">
           <attributes>
             <point id="position">
-              <real id="x">136.5</real>
-              <real id="y">194</real>
+              <real id="x">87.5</real>
+              <real id="y">157</real>
             </point>
             <size id="size">
               <real id="width">75</real>
@@ -22,6 +44,29 @@
                 <integer id="tileWidth" name="tileWidth">0</integer>
                 <integer id="tileHeight" name="tileHeight">0</integer>
               </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id877346" prototype="id598031">
+          <attributes>
+            <point id="position">
+              <real id="x">589.5</real>
+              <real id="y">156</real>
+            </point>
+            <size id="size">
+              <real id="width">210</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">boss</image>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
             </graphics>
             <motion />
             <physics>
