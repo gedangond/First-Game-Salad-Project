@@ -47,23 +47,6 @@
         <boolean id="haltWhenBehaviorStops">true</boolean>
       </attributes>
     </behavior>
-    <behavior id="id120023" class="TimerBehavior" enabled="true">
-      <attributes>
-        <text id="name">Timer</text>
-        <text id="bundleName">Timer.behavior</text>
-        <index id="timerType">1</index>
-        <real id="interval">0.5</real>
-        <boolean id="runToCompletion">false</boolean>
-      </attributes>
-      <behaviors>
-        <behavior id="id939592" class="DestroyAction" enabled="true">
-          <attributes>
-            <text id="name">Destroy</text>
-            <text id="bundleName">Destroy.behavior</text>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
     <behavior id="id927922" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Rule</text>
@@ -93,6 +76,15 @@
         </behavior>
       </behaviors>
       <elseBehaviors />
+    </behavior>
+    <behavior id="id172844" class="CollideBehavior" enabled="true">
+      <attributes>
+        <text id="name">Collide</text>
+        <text id="bundleName">Collide.behavior</text>
+        <text id="prototypeKey">id598031</text>
+        <text id="actorTag">Ground</text>
+        <index id="mode">0</index>
+      </attributes>
     </behavior>
   </behaviors>
   <aspects>
